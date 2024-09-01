@@ -6,7 +6,7 @@ using STJ = System.Text.Json;
 namespace FirstBenchmark;
 
 [ShortRunJob]
-[EventPipeProfiler(EventPipeProfile.CpuSampling)]
+//[EventPipeProfiler(EventPipeProfile.CpuSampling)]
 public class JsonDeserializationTest
 {
     private readonly string _jsonString;
